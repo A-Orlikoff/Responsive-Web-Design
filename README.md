@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-Welcome to my GitHub profile! I'm A. Orlikoff, a cath lab tech with a passion for coding, whitewater rafting, and powerlifting. Here, you'll find a mix of my medical and coding projects, along with some outdoor adventures thrown in.
+Welcome to my GitHub profile! I'm A. Orlikoff, a cath lab tech with a passion for coding, whitewater rafting, and powerlifting. Here, you'll find my coding projects.
 
 ## About Me
 
