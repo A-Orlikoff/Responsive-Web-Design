@@ -1,0 +1,137 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<h1>How to Whitewater Raft</h1>
+<main id="main-doc">
+  <section class="main-section" id="Find_a_Community">
+     
+     <header><span class="bold">Find a Community</span></header>
+     <br>
+     <code></code>
+     <li>Pick a whitewater river</li>
+     <p>Consider what class of river you want to raft in. Starting out and looking for something more relaxed? Pick a nice class I or II river like the Pigeon River or Nantahala. Looking for something more exciting? Pick a class IV or V river like the Ocoee or New River. 
+        Are you trying to work as a raft guide? Consider how much work there is to go around? Do some research and see what river might be a good fit. Many rivers have companies that offer housing.</p>
+     <li>Pick a whitewater company</li>
+     <p>Most whitewater rivers have a variety of different companies to choose from. Pick one and schedule a trip for yourself. If you want to know more, many companies offer whitewater guide training for a reasonable fee.</p>
+  </section>
+   <section class="main-section" id="Oar_Frame_Raft_or_Paddle_Raft">
+     <header><span class="bold">Oar Frame Raft or Paddle Raft</span></header>
+     <br>
+     <code></code>
+     <li>Oar frames</li>
+      <p>Oar frames give a single person more leverage to move the boat. it is typically used on larger rives, and has a larger learning curve than paddle rafts. These are frequently used on rivers in the rocky mountains.</p>
+       <li>Paddle raft</li>
+     <p>Paddle rafts are used commercially in the Appalachian Mountains, and require multiple paddlers to work in sync to move the raft.</p>
+  </section> 
+  <section class="main-section" id="Paddle_Technique">
+     <header><span class="bold">Paddle Technique</span></header>
+     <br>
+     <code></code>
+     <li>Find a trustworthy guide</li>
+      <p>If you wanted to become a firefighter, you wouldn't charge head-first into a burning building without any experience. Likewise you need a trusted team, equipment, and emergency plan in place to learn how to raft safely.</p>
+     <p></p>
+     
+  </section> 
+  <section class="main-section" id="Holes,_Sieves,_and_Strainers">
+     <header><span class="bold">Holes, Sieves, and Strainers</span></header> <code></code>
+     <br>
+     <li>Holes</li>
+      <p>This is the most common whitewater obstacle. This is created when water flows over a ledge or a rock and creates a hydraulic. Although these can be enjoyable and add an interesting challenge to any whitewater adventure, many of these holes can be very dangerous if not approached with the necessary precautions in place. </p>
+    <li>Sieves</li>
+      <p>A very dangerous whitewater feature formed by water flowing through a narrow passageway in a rock. These are to be avoided at all costs.</p>
+      <li>Strainers</li>
+      <p>Another dangerous whitewater feature usually formed by a tree, root system, or manmade obstruction such as a fence. Imagine a pasta strainer, but you and your boat are the pasta.</p>
+  </section> 
+  <section class="main-section" id="Party">
+     <header><span class="bold">Party</span></header>
+     <br>
+     <code></code>
+     <li>Finding the right fit</li>
+      <p>Many whitewater companies have their own distinct values and culture. If you don't feel like one you are at is the right fit, don't be afraid to ask around and look at some other outposts.</p>
+    <li>Sit back and have a good time</li>
+      <p>Enjoy the adventure! Every whitewater career is full of exciting highs and lows around every corner. Stay humble, stay safe, and have some fun! The relationships and memories you form on the river will last a lifetime.</p>
+  </section>
+</main>
+
+ <nav id="navbar">
+   <header>Sections</header>
+   <a class="nav-link" href="#Find_a_Community">Find a Community</a>
+    <a class="nav-link" href="#Oar_Frame_Raft_or_Paddle_Raft">Oar Frame Raft or Paddle Raft</a>
+     <a class="nav-link" href="#Paddle_Technique">Paddle Technique</a>
+      <a class="nav-link" href="#Holes,_Sieves,_and_Strainers">Holes, Sieves, and Strainers</a>
+       <a class="nav-link" href="#Party">Party</a>
+   </nav>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+}
+
+h1 {text-align: center;
+  font-family: "Impact", fantasy; 
+}
+
+#navbar {font-size: 24px; 
+  font-weight: bold;
+  width: 200px; 
+  height: 100vh;
+  background-color: #00308F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black; /* Link color */
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  background-color: lightblue; 
+}
+
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+  background-color: gold;
+}
+
+section{padding-left:20px}
+
+.bold{font-weight: bold}
+
+
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: left;
+  }
+
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 10px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 10px 0;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
+
+** end of undefined **
+

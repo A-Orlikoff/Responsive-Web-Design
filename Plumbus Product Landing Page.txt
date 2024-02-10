@@ -1,0 +1,172 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="cool-font">Plumbus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header"><span class="title">Plumbus</span>
+  <br>
+    <img id="header-img" src="https://steamuserimages-a.akamaihd.net/ugc/785162879548243770/1C5AC688F02E4CA048BAA91DCD8D5E59D3039A3E/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Plumbus">
+    <nav id="nav-bar">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#video" class="nav-link">Video</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <section id="features">
+    <h2 class="cool-font">Features</h2>
+    <!-- Feature details here -->
+  </section>
+  <p>Everybody owns a plumbus</p>
+  <ul class="plumbus-features">
+<li>It shleebs</li>
+<li>It gleems</li>
+<li>You can cook with it</li>
+<li>The perfect tool for self-defense</li>
+<li>Not recommended for children</li>
+    </ul>
+
+  
+    <section id="video-section">
+  <h2 class="cool-font">Plumbus! How is it made?</h2>
+  <div class="video-container">
+    <iframe id="video" src="https://www.youtube.com/embed/eMJk4y9NGvE" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="column-container">
+    <div class="column-1" class="cool-font">Only 1400 payments of $3.99. <span class="italic">(Shchleeble not included)</span> </div>
+    <div class="column-2" class="cool-font">Big Tony Recommends only the finest plumbuses. If it isn't a real, true Plumbus "put it in the garbage" he says, but with a thick Italian accent.</div>
+  </div>
+</section>
+
+
+ 
+
+  <section id="contact">
+    <h2 class="cool-font">Problems with your plumbus? Contact Us</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email" class="cool-font">Email:</label>
+      <br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </section>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+#header {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.title {
+  font-size: 60px; /* Add 'px' for font size */
+}
+
+html {
+  background-color: #6A0DAD;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+   font-weight: bold;
+  width: 100%;
+  background-color: #333; /* Dark background color */
+  z-index: 999;
+   font-size: 1.3em;
+  color: #ffffff; /* White text color */
+}
+
+#nav-bar .nav-link:hover {
+  color: #00ff00; /* Green hover color */
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.video-section {
+  align-items: center;
+  
+}
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  #header {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.cool-font {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.italic{font-size: small; /* Adjust as needed */
+  font-style: italic;}
+
+/* Additional styles for Plumbus section */
+
+
+.video-container {
+  flex: 2;
+  margin-right: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.column-container {
+  flex: 1;
+  display: flex;
+}
+
+.column-1 {
+  flex: 1;
+  background-color: #FF66CC;
+  height: 200px; /* Adjust height as needed */
+  margin: 0 10px;
+  border-radius: 10px;
+   border: 5px solid darkred;
+   outline: 5px solid #9B30FF;
+  box-sizing: border-box;
+  text-align:center; padding-top:70px
+}
+
+.column-2 {
+  flex: 1;
+  background-color: #FF66CC;
+  height: 200px; /* Adjust height as needed */
+  margin: 0 10px;
+  border-radius: 10px;
+   border: 5px solid darkred;
+   outline: 5px solid #9B30FF;
+  box-sizing: border-box;
+  text-align:center; padding-top:40px
+}
+
+
+** end of undefined **
+

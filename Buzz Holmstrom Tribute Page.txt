@@ -1,0 +1,49 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Oregon River Legend: Buzz Holmstrom</h1>
+    <a href="https://www.nps.gov/features/lake/museum/photos/full/historic/human-interest/002_1128_TDT.jpg" id="tribute-link" target="_blank">
+      <img src="https://www.nps.gov/features/lake/museum/photos/full/historic/human-interest/002_1128_TDT.jpg" alt="Buzz Holmstrom">
+    </a>
+    <div id="img-div">
+      <img id="image" src="path-to-your-image.jpg" alt="Buzz in his homemade boat">
+      <br>
+      <div id="img-caption"><span class="bold-text">Buzz Holmstrom:</span> The first person to run the Green River through the Grand Canyon solo, in a boat of his own design.</div>
+      <br>
+    </div>
+    <div id="tribute-info"><span class="bold-text">Buzz Holmstrom</span> was a pioneer of the whitewater rafting community before his tragic death on the confluence of the Wallowa River and the Grande Ronde River in 1946 at the age of 37.</div>
+  </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+img{max-width: 100%; height: auto; display: block; margin: auto;}
+#title{text-align: center; margin-bottom: 5px}
+#tribute-link img {
+  object-fit: cover;
+  object-position: center bottom;
+  height: px; 
+  width: 100%;
+}
+body {
+  background-color: #3498db; 
+  color: #fff; 
+}
+.bold-text {
+    font-weight: bold;
+}
+
+** end of undefined **
+
