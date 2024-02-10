@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<h1 id="title">What do the hoes like?</h1>
+  <p id="description">Don't scare the hoes. You're being weird bud.</p>
+ <form id="survey-form">
+  <label id="name-label">
+    Name
+    <input placeholder="Why that ass fat?" id="name" type="text" required>
+  </label>
+
+  <label id="email-label">
+    Email
+    <input placeholder="gucci@spiducci.com" id="email" type="email" required>
+  </label>
+
+  <label id="number-label">
+    Number
+        <input placeholder="For a good time call..." id="number" type="number" min="1000000000" max="9999999999">
+  </label>
+     <h2>Select what scares the hoes:</h2>
+   
+    <input type="checkbox" id="stinkyCheckbox" name="scareshoes" value="stinky">
+  <label for="stinkyCheckbox">That stinky ass of yours</label>
+
+  <br>
+
+  <input type="checkbox" id="commitmentCheckbox" name="scareshoes" value="commitment">
+  <label for="commitmentCheckbox">Commitment</label>
+
+  <br>
+
+  <input type="checkbox" id="snakesCheckbox" name="scareshoes" value="snakes">
+  <label for="snakesCheckbox">Snakes (unless they're goth)</label>
+
+  <br>
+
+  <input type="checkbox" id="taxesCheckbox" name="scareshoes" value="taxes">
+  <label for="taxesCheckbox">Taxes</label>
+
+  <br>
+
+  
+  <h2>I am a...</h2>
+  <label for="dropdown">Choose Personality:</label>
+  <select id="dropdown">
+    <option value="Bad Bitch">Bad Bitch</option>
+    <option value="Plain Jane">Plain Jane</option>
+  </select>
+  <br>
+    <input type="radio" id="BadBitch" name="personality" value="Bad Bitch" checked>
+  <label for="BadBitch">Bad Bitch</label>
+<br>
+  <input type="radio" id="PlainJane" name="personality" value="Plain Jane">
+  <label for="PlainJane">Plain Jane</label>
+  <br>
+  <h2>Tell me about a time you scared the hoes:</h2>
+
+  <label for="comments">But nothing too creepy please:</label>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+  <br>
+<input id="submit" type="submit" value="Submit">
